@@ -1,0 +1,16 @@
+body {
+    background-color: #f0f0f0; /* Colore di sfondo diverso dal bianco */
+    font-family: Arial, sans-serif;
+  }
+  #logo {
+    height: 35px; /* Altezza del logo */
+  }
+  h1 {
+    font-size: 32px; /* Dimensione del titolo */
+  }
+  p {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 15px; /* Dimensione del testo minore di 16px */
+  }
+  
