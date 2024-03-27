@@ -1,0 +1,33 @@
+#absolute-div {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding-left: 10px;
+   }
+
+#fixed-div {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.container {
+    
+    width: 200px;
+    height: 1000px;
+    background-color: rgb(138, 138, 142);
+}
+
+#sticky-div {
+    position: sticky; 
+    top: 50px; /* 50 pix dal top si ferma*/
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
