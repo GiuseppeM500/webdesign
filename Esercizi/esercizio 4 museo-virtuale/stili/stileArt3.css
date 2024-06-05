@@ -1,0 +1,19 @@
+
+/* Stili per la pagina artista3 */
+
+/* eredita le proprietà dello stile predefinito*/
+@import url("stile.css");
+
+.container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%; /* Tre colonne di uguale larghezza */
+    grid-template-rows: 50% 50%; /* Due righe di uguale altezza */
+    gap: 10px; /* Spazio tra le colonne e le righe */
+  }
+  
+/* proprietà  img  solo per la classe container*/
+  .container img {
+    width: 100%; /* Larghezza massima all'interno della cella */
+    height: 100%; /* Altezza massima all'interno della cella */
+    object-fit: contain; /* Assicura che l'immagine sia contenuta dentro la cella senza essere tagliata */
+  }

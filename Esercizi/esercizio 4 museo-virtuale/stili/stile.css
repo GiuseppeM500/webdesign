@@ -1,0 +1,77 @@
+/* Impostazioni generali del testo */
+body {
+    color: #333; /* Colore del testo */
+    font-family: 'Arial', sans-serif; /* Font del testo */
+    font-size: 16px; /* Dimensione del testo */
+}
+
+
+
+/* Stili per le intestazioni */
+h1 {
+    font-size: 2em; /* Dimensione del testo per h1 */
+    color: #000; /* Colore del testo per h1 */
+    
+}
+
+h2 {
+    font-size: 1.5em; /* Dimensione del testo per h2 */
+    text-transform: capitalize; /* Imposta la prima lettera in maiuscolo */
+    color: #333; /* Colore del testo per h2 */
+    letter-spacing: 0.2em;
+}
+
+/* Stili per i paragrafi */
+p {
+    font-size: 1em; /* Dimensione del testo per i paragrafi */
+    line-height: 1.6; /* Altezza della linea per i paragrafi */
+}
+
+/* Stili per i link */
+a {
+    color: #192c57; /* Colore dei link */
+    text-decoration: none; /* Rimuove il sottolineato dai link */
+}
+
+a:hover {
+    color: #0099ff; /* Colore dei link quando si passa il mouse sopra */
+}
+
+/* Stili per le sezioni header, main e footer */
+header {
+    background-color: #f8f8f8; /* Colore di sfondo per l'header */
+}
+
+main {
+    background-color: #fff; /* Colore di sfondo per il main */
+}
+
+footer {
+    background-color: #e8e8e8; /* Colore di sfondo per il footer */
+}
+
+/* Stili per le immagini */
+img {
+    border: 1px solid #ddd; /* Bordo delle immagini */
+    padding: 5px; /* Padding intorno alle immagini */
+    margin: 10px 0; /* Margine sopra e sotto le immagini */
+}
+
+/* Stili per la pagina artisti3 */
+
+.container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%; /* Tre colonne di uguale larghezza */
+    grid-template-rows: 50% 50%; /* Due righe di uguale altezza */
+    gap: 10px; /* Spazio tra le colonne e le righe */
+  }
+  
+
+  .container img {
+    width: 100%; /* Larghezza massima all'interno della cella */
+    height: 100%; /* Altezza massima all'interno della cella */
+    object-fit: contain; /* Assicura che l'immagine sia contenuta senza essere tagliata */
+  }
+
+/* Ricorda:  "em" è un'unità di misura relativa utilizzata per definire le dimensioni di un elemento in modo proporzionale alle dimensioni del font dell'elemento genitore.  
+E se non specificato questo è 16pix */
