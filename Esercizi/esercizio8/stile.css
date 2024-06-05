@@ -1,0 +1,115 @@
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Alike&display=swap');
+
+  .alike-regular {
+    font-family: "Alike", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+  
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Reset di base per rimuovere i margini predefiniti */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Stile per l'header */
+  header {
+    background-color:#385153;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Stile per il titolo principale H1 nell'header */
+  header h1 {
+    font-family: "Alike", serif;
+    font-size: 3em; 
+    color: #ffffff;
+  }
+
+
+  /* Stile per il main  */
+  #main {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Stile per i titoli H2, H3, H4 */
+  h2, h3, h4 {
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Stile per il titolo della pagina tributo */
+  #title {
+    font-family: "Alike", serif;
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Stile per l'elemento figure e la caption */
+  #img-div {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  /* Stile per l'immagine */
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #333;
+  }
+  
+  /* Stile per la didascalia dell'immagine */
+  #img-caption {
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 5px;
+  }
+  
+  /* Stile per le informazioni */
+  #tribute-info {
+    font-size: 1em;
+    margin-top: 20px;
+    text-align: justify;
+  }
+  
+  #tribute-link {
+    color: #6672f5; 
+    text-decoration: none; /* Rimuove il sottolineato dal link */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Rende il testo del link in grassetto peso 700 */
+  }
+  
+  #tribute-link:hover {
+    text-decoration: underline; /* Aggiunge un sottolineato quando il mouse passa sopra il link */
+  }
+  
+
+
+
+

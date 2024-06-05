@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    color: green;
+  }
+
+  p {
+    color: red;
+    font-family: sans-serif;
+  }
+
+  .paragrafo1{color: blueviolet;}
+  .paragrafo2{color: blue;}
+  .container{
+    
+    
+    border-style: dotted dashed solid double;}
+
+
