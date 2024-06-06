@@ -1,0 +1,22 @@
+/* Stili generali */
+h1 {
+    color: black;
+}
+
+img {
+    width: 100%;
+}
+
+/* Media query per cambiare il colore del testo a verde quando la larghezza del browser è inferiore a 600 pixel */
+@media (max-width: 600px) {
+    h1 {
+        color: green;
+    }
+}
+
+/* Media query per ridurre la dimensione delle immagini al 49%  quando la larghezza del browser è inferiore a 800 pixel */
+@media (max-width: 800px) {
+    img {
+        width: 49%;
+    }
+}
